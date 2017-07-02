@@ -1,5 +1,3 @@
-//Κουφάκης Αλέξανδρος-Μιχαήλ, 2175
-//Σεϊταρίδης Ανδρέας, 2200
 
 package EnvironmentFinish;
 
@@ -25,7 +23,7 @@ public class Simulation {
     	
     	// Asking for user's input
     	 String[] choices = { "Random", "File"};
-    	    String choice = (String) JOptionPane.showInputDialog(null, "Choose now mr Vrakas", "Chose input method", JOptionPane.QUESTION_MESSAGE, null, choices, // Array of choices
+    	    String choice = (String) JOptionPane.showInputDialog(null, "Choose now", "Chose input method", JOptionPane.QUESTION_MESSAGE, null, choices, // Array of choices
     	        choices[1]); // Initial choice
     	    
     	    if(choice.equals("Random"))
